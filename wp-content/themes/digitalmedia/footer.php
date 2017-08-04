@@ -7,7 +7,7 @@
 	        <?php if(!(digitalmedia_set($options, 'hide_upper_footer'))):?>
 			<?php if ( is_active_sidebar( 'footer-sidebar' ) ) { ?>	
 				<div class="row">
-					<?php dynamic_sidebar( 'footer-sidebar' ); ?>
+					<div class="widget_item"><?php dynamic_sidebar( 'footer-sidebar' ); ?></div>
                 </div>
 			 <?php } ?> 	
 			<?php endif;?>	
