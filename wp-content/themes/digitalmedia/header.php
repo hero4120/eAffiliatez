@@ -63,7 +63,7 @@
                             
                         </div>
 
-                        <div class="menu-header-menu-container">  
+                        <div class="menu-header-menu-container"> 
                             <ul>
 							<?php wp_nav_menu( array( 'theme_location' => 'main_menu', 'container_id' => 'navbar-collapse-1',
 											'container_class'=>'menu-header-menu-container',
