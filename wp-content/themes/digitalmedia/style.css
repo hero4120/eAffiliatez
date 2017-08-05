@@ -246,30 +246,7 @@ End TABLE OF CONTENT
     color: #ac2c28 !important;
 }
 /*Đặt lại footer bottom*/
-/*list item 3level*/
-.list-item-3levels p{
-    font-size: 26px;
-    color: #fff;
-    font-weight: normal;
-}
-.list-item-3levels::before{
-    position: absolute;
-    content: "";
-    border: 1px solid #AB2B29;
-    top: 27px;
-    left: -108px;
-    right: 0px;
-    bottom: 53px;
-    width: 9%;
-    background: #ab2b29;
-    border-radius: 4px;
-    text-align: center;
-}
-.item-1::before{
-    content: url(images/hand.png);
-    padding: 2% 0% 0% 0%;
-}
-/*list item 3level*/
+
 
 .inner_header {
     width: 100%;
