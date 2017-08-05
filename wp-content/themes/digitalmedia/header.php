@@ -40,7 +40,7 @@
 
 <header class="header clearfix">
 
-    <div class="main-header stricky">
+    <div class="main-header stricky" style="margin-bottom: 6px">
         <div class="container">
             <div class="logo pull-left">
                 <?php if(digitalmedia_set($options, 'logo_image')):?>
