@@ -18,7 +18,7 @@
 		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?>>
-	
+
     <div class="page-wrapper">
  	<?php if(digitalmedia_set($options, 'preloader')):?>
     <!-- Preloader -->
@@ -60,27 +60,27 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            
+
                         </div>
 
-                        <div class="menu-header-menu-container"> 
+                        <div class="menu-header-menu-container">
                             <ul>
 							<?php wp_nav_menu( array( 'theme_location' => 'main_menu', 'container_id' => 'navbar-collapse-1',
 											'container_class'=>'menu-header-menu-container',
 											'menu_class'=>'header_menu',
 											'menu_id'=>'menu-header-menu',
-											'fallback_cb'=>false, 
-											//'items_wrap' => '%3$s', 
+											'fallback_cb'=>false,
+											//'items_wrap' => '%3$s',
 											'container'=>false,
-											'walker'=> new Bunch_Bootstrap_walker()  
+											'walker'=> new Bunch_Bootstrap_walker()
 								) ); ?>
 
-                            </ul> 
-                        </div> 
+                            </ul>
+                        </div>
                     </div>
                 </nav>
 
-                
+
             </div>
 
         </div>

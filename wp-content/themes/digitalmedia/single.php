@@ -1,5 +1,5 @@
 <?php $options = _WSH()->option();
-	get_header(); 
+	get_header();
 	$settings  = digitalmedia_set(digitalmedia_set(get_post_meta(get_the_ID(), 'bunch_page_meta', true) , 'bunch_page_options') , 0);
 	$meta = _WSH()->get_meta('_bunch_layout_settings');
 	$meta1 = _WSH()->get_meta('_bunch_header_settings');
